@@ -3,7 +3,7 @@
 // Ejercicio 1: Condicionales if-else
 // Instrucción: Escribe una función que reciba un número y verifique si es par o impar.
 // Imprime "El número es par" o "El número es impar" según corresponda.
-function verificarParidad() {
+function verificarParidad(numero) {
     if(numero%2==0)
         console.log("El numero es par")
     else
