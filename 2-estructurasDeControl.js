@@ -44,7 +44,7 @@ function repetirMensaje() {
 // Ejercicio 5: Bucle for
 // Instrucción: Escribe una función que reciba un número entero positivo y utilice un bucle `for` para imprimir todos los números pares entre 0 y ese número.
 function imprimirPares(numero) {
-    for(let par=0; par<=numero; par+1){
+    for(let par=0; par<=numero; par=par+1){
         if (par%2==0){
             console.log(par);
         }
@@ -54,7 +54,7 @@ function imprimirPares(numero) {
 // Ejercicio 6: Uso de break
 // Instrucción: Escribe una función que recorra los números del 1 al 10, pero detén el bucle cuando el número sea igual a 6.
 function detenerEnSeis() {
-    for(let recorrer = 1; recorrer <= 10; i+1){
+    for(let recorrer = 1; recorrer <= 10; i=i+1){
         if(recorrer==6){
             break;
         }
@@ -65,7 +65,7 @@ function detenerEnSeis() {
 // Ejercicio 7: Uso de continue
 // Instrucción: Crea una función que recorra los números del 1 al 10, pero que se salte el número 5 usando `continue`.
 function saltarCinco() {
-    for (let salto = 1; salto <=10; salto+1){
+    for (let salto = 1; salto <=10; salto=salto+1){
         if(salto==5){
             continue;
         }
