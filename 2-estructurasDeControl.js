@@ -26,12 +26,13 @@ clasificarEdad(34);
 // Ejercicio 3: Bucles while
 // Instrucción: Crea una función que reciba un número entero positivo y utilice un bucle `while` para imprimir todos los números desde ese número hasta 0.
 function cuentaRegresiva() {
-        while (retroceso>=0){
+    let retroceso=30   
+    while (retroceso>=0){
             console.log(retroceso);
             retroceso=retroceso-1;
         }
 }
-cuentaRegresiva(30);
+cuentaRegresiva();
 // Ejercicio 4: Bucles do-while
 // Instrucción: Escribe una función que imprima "Estoy aprendiendo JavaScript" 5 veces utilizando un bucle `do-while`.
 function repetirMensaje() {
