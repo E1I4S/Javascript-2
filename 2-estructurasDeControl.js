@@ -56,7 +56,7 @@ imprimirPares(30);
 // Ejercicio 6: Uso de break
 // Instrucción: Escribe una función que recorra los números del 1 al 10, pero detén el bucle cuando el número sea igual a 6.
 function detenerEnSeis() {
-    for(let recorrer = 1; recorrer <= 10; i=i+1){
+    for(let recorrer = 1; recorrer <= 10; recorrer=recorrer+1){
         if(recorrer==6){
             break;
         }
