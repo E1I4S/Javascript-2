@@ -93,7 +93,8 @@ obtenerDiaSemana(6);
 // Ejercicio 9: Switch con múltiples casos
 // Instrucción: Escribe una función que reciba un carácter y devuelva si es una vocal. Utiliza un `switch` y agrupa los casos para las vocales (a, e, i, o, u).
 function esVocal(vocal) {
-    switch(vocal.tolowerCase()){
+   
+    switch(vocal.toLowerCase()){
           case "a":
           case "e":
           case "i":
@@ -105,7 +106,8 @@ function esVocal(vocal) {
           console.log("No es vocal");
 }
 }
-esVocal(k);
+let letra="k"
+esVocal(letra);
 // Ejercicio 10: Condicionales complejos con operadores lógicos
 // Instrucción: Escribe una función que reciba tres números y determine si todos son positivos, al menos uno es negativo, o todos son negativos. Usa operadores lógicos (`&&`, `||`).
 function evaluarNumeros(A, B, C) {
